@@ -1,5 +1,6 @@
 {
   "name": "ars-test",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "assert-raisins": "^2.0.0",
-    "ts-node": "^10.9.2"
+    "@swc/core": "^1.4.8",
+    "assert-raisins": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.30"
